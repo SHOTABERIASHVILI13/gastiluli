@@ -1,0 +1,29 @@
+.product{                   
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.product > a{ 
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+   
+}
+.card{
+    width: 10rem;
+    margin: 14px;  /*changed*/
+    text-align: center;          /*changed*/
+    margin-right: 54px;
+    
+}
+.card-img-top{  /*changed*/
+    padding: 8px;
+}
+.card a{                          /*changed*/
+    background-color: rgb(45, 127, 70);
+}
+.card a:hover{                   /*changed*/
+    background-color:rgb(29, 94, 49);
+}
